@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html lang="id">
+
+<head>
+
+<title>Form Registrasi Siswa</title>
+<style>
+    .container {
+        width: 50%;
+        margin: auto;
+        background-color: bisque;
+        color: black;
+    }
+
+    .judul {
+        text-align: center;
+        font-family: lato;
+        font-weight: bold;
+        padding-top: 80px;
+    }
+
+    table {
+        margin: auto;
+    }
+
+    table td {
+        padding-bottom: 20px;
+    }
+
+    input {
+        border-radius: 7px;
+    }
+
+    button {
+        padding: 10px 55px;
+        border-radius: 25px;
+        background: #ff8600;
+        margin: auto 180px;
+    }
+
+</style>
+
+</head>
+
+<body>
+    <div class="container">
+    <h1 class="judul">Formulir Registrasi Siswa</h1>
+    <form>
+    <table>
+        <tr>
+            <td><label>Nama Lengkap</label></td>  
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Tempat Lahir</label></td>
+            <td><input type="text"></td>         
+        </tr>
+        <tr>
+            <td><label>Tanggal Lahir</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Jenis Kelamin</label></td>
+            <td>
+                <input type="radio" name="jenis_kelamin" value="laki-laki" /> Laki-laki
+                <input type="radio" name="jenis_kelamin" value="perempuan" /> Perempuan
+            </td>          
+        </tr>
+        <tr>
+            <td><label>Agama:</label></td>
+            <td>
+            <select name="agama">
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="hindu">Hindu</option>
+                <option value="budha">Budha</option>
+            </select>
+            </td>
+        <tr>
+            <td><label>Alamat Lengkap</label></td>
+            <td><input></td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label for="PW">Password</label></td>
+            <td><input type="password" id="PW"></td>
+        </tr>
+        <tr>
+            <td><label>Confirm Password</label></td>
+            <td><input type="password"></td>
+        <tr>
+            <td><label>No.HP</label></td>
+            <td><input type="text"></td>                
+        </tr>     
+</table>
+        <button>Login</button> 
+</form>
+</div>
+</body>
+</html>
